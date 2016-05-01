@@ -8,7 +8,7 @@ The package [fuzzaldrin](https://github.com/atom/fuzzaldrin) is one of the core 
 # Usage
 For the defined file types, it will complete automatically. Like the figure shows below.
 
-![A screenshot of the package using](https://raw.githubusercontent.com/wushuaibuaa/autocomplete-en-en/master/complete-en-en-demo.gif)
+![A screenshot of the package using](https://raw.githubusercontent.com/wushuaibuaa/autocomplete-en-en/master/autocomplete-en-en-demo.gif)
 
  The default setting includes text file, latex file, markdown file, null grammar file. If you need to add your file type, add the type string in the setting panel.
 
