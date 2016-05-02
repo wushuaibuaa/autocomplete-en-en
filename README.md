@@ -3,7 +3,7 @@
 An [autocomplete-plus](https://github.com/atom/autocomplete-plus) provider completing English words with the hint of English explanation.
 
 This package requires [autocomplete-plus](https://github.com/atom/autocomplete-plus) and [fuzzaldrin](https://github.com/atom/fuzzaldrin).
-The package [fuzzaldrin](https://github.com/atom/fuzzaldrin) is one of the core package of atom which has been installed by default. This package offers a fuzzy match function which is useful for uncertain words.
+The package [fuzzaldrin](https://github.com/atom/fuzzaldrin) is one of the core package of atom which has been installed by default. This package offers a fuzzy match function which is useful for uncertain words. The dictionary is based on the Oxford advanced learner dictionary.
 
 # Usage
 For the defined file types, it will complete automatically. Like the figure shows below.
@@ -11,7 +11,6 @@ For the defined file types, it will complete automatically. Like the figure show
 ![A screenshot of the package using](https://raw.githubusercontent.com/wushuaibuaa/autocomplete-en-en/master/autocomplete-en-en-demo.gif)
 
  The default setting includes text file, latex file, markdown file, null grammar file. If you need to add your file type, add the type string in the setting panel.
-
 
 ![A screenshot of the setting page](https://raw.githubusercontent.com/wushuaibuaa/autocomplete-en-en/master/setting.png)
 
