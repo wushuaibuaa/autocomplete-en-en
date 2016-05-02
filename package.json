@@ -1,36 +1,36 @@
 {
-    "name": "autocomplete-en-en",
-    "main": "./lib/autocomplete-en-en",
-    "version": "0.0.0",
-    "author": "Shuai Wu <ws.horton@gmail.com>",
-    "description": "English word autocompetion with the hint of explanation.",
-    "repository": "https://github.com/wushuaibuaa/autocomplete-en-en",
-    "license": "MIT",
-    "engines": {
-        "atom": ">=1.0.0 <2.0.0"
-    },
-    "keywords": [
-        "autocomplete",
-        "English",
-        "words",
-        "Explnaation",
-        "fuzzy"
-    ],
-    "configSchema": {
-        "FileType": {
-            "type": "string",
-            "default": ".text.plain, .text.plain.null-grammar, .text.tex.latex, .source.gfm",
-            "description": "List of scopes for typing which will be given the word completion. See [the README](https://github.com/wushuaibuaa/autocomplete-en-en/blob/master/README.md) for more information on finding the correct scope for a specific language."
-        }
-    },
-    "dependencies": {
-        "fuzzaldrin": "^2.1.0"
-    },
-    "providedServices": {
-        "autocomplete.provider": {
-            "versions": {
-                "2.0.0": "getProvider"
-            }
-        }
+  "name": "autocomplete-en-en",
+  "main": "./lib/autocomplete-en-en",
+  "version": "0.1.0",
+  "author": "Shuai Wu <ws.horton@gmail.com>",
+  "description": "English word autocompetion with the hint of explanation.",
+  "repository": "https://github.com/wushuaibuaa/autocomplete-en-en",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "keywords": [
+    "autocomplete",
+    "English",
+    "words",
+    "Explnaation",
+    "fuzzy"
+  ],
+  "configSchema": {
+    "FileType": {
+      "type": "string",
+      "default": ".text.plain, .text.plain.null-grammar, .text.tex.latex, .source.gfm",
+      "description": "List of scopes for typing which will be given the word completion. See [the README](https://github.com/wushuaibuaa/autocomplete-en-en/blob/master/README.md) for more information on finding the correct scope for a specific language."
     }
+  },
+  "dependencies": {
+    "fuzzaldrin": "^2.1.0"
+  },
+  "providedServices": {
+    "autocomplete.provider": {
+      "versions": {
+        "2.0.0": "getProvider"
+      }
+    }
+  }
 }
