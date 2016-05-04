@@ -1,7 +1,7 @@
 {
   "name": "autocomplete-en-en",
   "main": "./lib/autocomplete-en-en",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "author": "Shuai Wu <ws.horton@gmail.com>",
   "description": "English word autocompetion with the hint of explanation.",
   "repository": "https://github.com/wushuaibuaa/autocomplete-en-en",
